@@ -63,15 +63,14 @@ This file acts as a validator for the Sandhi splitter. It must contain a broad c
 
 - **Root Words** (e.g., `రామ`, `చెట్టు`)
 - **Simple Inflected Forms** (e.g., `రాముడు`, `చెట్లు`)
-- **Compound Components** (e.g., `ఆలయం` for splitting `రామాలయం`)
 - **Function Words** (e.g., `మరియు`, `కాని`)
 - **Modern Vocabulary** (loanwords, technical terms)
 
 **Format:**
 
 ```
-పదం 1234
-మరోపదం 987
+ఇల్లు 98
+నీరు 97
 ```
 
 ### 📗 Corpus File — `data/telugu_corpus.txt`
@@ -89,7 +88,7 @@ Raw Telugu sentences used to train the final BPE model.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://code.swecha.org/venkat29/telugu_tokenizer.git
+git clone git@code.swecha.org:venkat29/telugu_tokenizer.git
 cd telugu_tokenizer
 ```
 
