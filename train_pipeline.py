@@ -10,8 +10,6 @@ A robust CLI script to:
 Usage:
     python train_pipeline.py --vocab data/telugu_vocab.txt --corpus data/telugu_corpus.txt
 
-Author: Swecha Contributor
-Date: 2025-10-25
 """
 
 import os

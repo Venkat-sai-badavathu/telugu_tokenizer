@@ -4,12 +4,6 @@ Sandhi Splitter Module
 ----------------------
 A rule-based engine to split Telugu words based on grammatical Sandhi rules.
 
-Compliance:
-- Contains only function definitions (no global execution).
-- Uses standard Python typing and docstrings.
-
-Author: Swecha Contributor
-Date: 2025-10-25
 """
 
 # Telugu Character Definitions
